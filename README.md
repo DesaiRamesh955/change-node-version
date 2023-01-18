@@ -2,7 +2,7 @@
 
 ### Remove existing version of nodejs
 
-```sh
+```js
 sudo apt remove nodejs
 ```
 OR
