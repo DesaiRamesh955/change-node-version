@@ -1,4 +1,18 @@
-#  Installing Node Using the Node Version Manager
+#  Change nodejs version in ubuntu
+
+### Remove existing version of nodejs
+
+```sh
+sudo apt remove nodejs
+```
+OR
+
+```sh
+sudo apt remove node
+```
+
+---
+### Installing Node Using the Node Version Manager
 
 ```sh
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
